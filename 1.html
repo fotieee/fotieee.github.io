@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.main{
+	background: #63F;
+	width: 874px;
+	height: 206px;
+	margin: 50px auto;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.main>div{
+	width: 100px;
+	height: 100px;
+	background: #e7e7e7;
+	border-radius: 10px;
+	border: 5px solid #d7d7d7;
+	border-top-color:#fff;
+	border-bottom-color: #bbb;
+	display:flex;
+	
+}
+.div1{
+	justify-content: center;
+    align-items: center;
+}
+.ron{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #333333;
+	
+}
+.second{
+	justify-content:space-between;
+}
+
+.s_ron{
+	align-self:flex-end;
+}
+
+.s_ron2{
+	align-self: center;
+}
+
+.fore{
+	justify-content: space-between;
+	flex-direction:column;
+	
+}
+
+.big1,.big2{
+	
+	display:flex;
+	justify-content: space-between;
+	
+}
+.big5{
+
+	justify-content:center;
+}
+</style>
+</head>
+
+<body>
+<div class="main">
+	<div class="div1">
+    	<div class="ron"></div>
+    </div>
+    <div class="second">
+    	<div class="ron"></div>
+        <div class="ron s_ron"></div>
+    </div>
+    <div class="second">
+    	<div class="ron"></div>
+        <div class="ron s_ron2"></div>
+        <div class="ron s_ron"></div>
+    </div>
+    <div class="fore">
+    	<div class="big1">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div>  
+          <div class="big2">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div>
+    </div>
+   <div class="fore">
+    	<div class="big1">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div>  
+          <div class="big1 big5">
+            
+            <div class="ron"></div>
+          </div>
+          <div class="big2">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div>
+    </div>
+    <div class="fore">
+    	<div class="big1">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div> 
+          <div class="big1">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div>  
+          <div class="big2">
+            <div class="ron"></div>
+            <div class="ron"></div>
+          </div>
+    </div> 
+</div>
+</body>
+</html>
